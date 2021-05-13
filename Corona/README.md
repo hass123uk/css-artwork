@@ -1,0 +1,8 @@
+Submission for the following competition:
+
+https://cssbattle.dev/play/47 
+
+Draw the corona virus.
+
+
+
