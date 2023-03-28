@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS illustrations</title>
-
-    <style>
-      a {
-        font-size: larger;
-      }
-    </style>
   </head>
   <body>
     <h1>CSS illustrations:</h1>
-    <ul>
-      <li><a href="/css-artwork/virus/index.html">Virus</a></li>
-      <li><a href="/css-artwork/sky/index.html">Cloud</a></li>
-    </ul>
+    <div id="parent">
+      <div class="frame-container">
+        <iframe id="frame1" src="sky/index.html" frameborder="0"></iframe>
+        <a href="sky/index.html">Cloud</a>
+      </div>
+      <div class="frame-container">
+        <iframe id="frame2" src="virus/index.html" frameborder="0"></iframe>
+        <a href="virus/index.html">Virus</a>
+      </div>
+    </div>
   </body>
 </html>
