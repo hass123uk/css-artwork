@@ -1,5 +1,3 @@
-Collection of Illustrations made with CSS.
+Deployed to [Github Pages](https://hass123uk.github.io/css-artwork/)
 
-Illustrations:
-(Sky)[/Sky/index.html]
-(Corona)[/Corona/index.html]
+Collection of Illustrations made with CSS.
