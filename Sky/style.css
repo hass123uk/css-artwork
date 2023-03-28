@@ -5,17 +5,38 @@ body {
 }
 
 .center {
-  position: fixed;
+  position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .cloud {
-    opacity: 0.5;
-  height: 240px;
-  width: 260px;
-  /* background: #BADA55; */
   background: #fff;
-  border-radius: 50% 50% 20px 20px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  width: 300px;
+  height: 100px;
+  border-radius: 150px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cloud:after {
+  content: "";
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+}
+
+.cloud:before {
+  content: "";
+  background: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  right: 50px;
 }
